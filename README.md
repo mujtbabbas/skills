@@ -22,6 +22,20 @@ If you want to keep up with changes to these skills, and any new ones I create, 
 
 [Sign Up To The Newsletter](https://www.aihero.dev/s/skills-newsletter)
 
+## About This Standalone Edition
+
+- **Main repository:** [mattpocock/skills](https://github.com/mattpocock/skills)
+- **Based on version:** upstream release `v1.3.1` (commit `5beb35b040e3de97e54fa9e386d7e42d15c295c2`, snapshotted 2026-10-20; upstream HEAD dated 2026-10-19)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - .github/dependabot.yml — weekly GitHub Actions and npm (root package.json / changesets tooling) dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the skill documentation (upstream needs-info, release and triage-label workflows kept as-is)
+  - .editorconfig — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to Matt Pocock and the upstream contributors. Licence is preserved unchanged — see `LICENSE` (MIT License, Copyright (c) 2026 Matt Pocock). This edition adds the enhancements listed above only.
+
 ## Installation (30-second setup)
 
 A plugin updates itself. [skills.sh](https://skills.sh/mattpocock/skills) copies editable files into your project, and you update them by hand. Pick one per agent, because installing both gives you every skill twice.
